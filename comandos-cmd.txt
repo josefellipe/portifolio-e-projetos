@@ -1,0 +1,18 @@
+Comando Terminal CMD/Git Bash
+-Padrão
+cd "nome" 	       -> Avança para pasta escolhida
+cd ..    	       -> Volta para pasta anterior
+ls        	       -> Lista o que há dentro da pasta
+ls -a    	       -> Lista inclusive os arquivos ocultos
+echo > "nome.extensão" -> Cria o arquivo da extensão escolhida
+mkdir "nome"	       -> Cria uma pasta com o nome escolhido
+ctrl + l 	       -> Limpa o terminal
+rmdir "nome"	       -> Exclui a pasta
+rm "nome"	       -> Exclui o arquivo
+
+*Git
+git clone "caminho"    -> Clona um repositório escolhido
+git status             -> Mosta como estão (versionamento) os arquivos da pasta
+git add . 	       -> Adiciona tudo para ser versionado pelo git
+git commit -m "coment" -> Cria um commit com um comentário
+git push origin main   -> Empurra o commit para o GitHub
