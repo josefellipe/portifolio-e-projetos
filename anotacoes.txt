@@ -1,2 +1,18 @@
-Link para download do Git: https://git-scm.com/downloads
-O Gt Bash é um terminal extendido para otimizar o uso do Git.
+Passo para criar um novo repositório e usa-lo na máquina.
+
+1) Crie um repositório no GitHub
+Faça o nome e a descrição a gosto.
+
+2) Copie o código https no GitHub e colo no Git Bash na pasta desejada
+Abra o Git Bash e faça o comando
+$git clone "https..."
+
+#Isso irá trazer os arquivos do repositório para a pasta que o Git Bash está aberto.
+
+3) Faça as modificações que desejar e adicione-as
+No Git Bash faça:
+$git add .
+(isso cria um novo versionamento)
+$git commit -m "mensagem do commit"
+(isso cria o commit local, com as informações)
+$git push origin main
