@@ -1,0 +1,190 @@
+.border-black {
+    border: black 3px solid;
+}
+
+.border-blue {
+    border: blue 3px solid;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.all-content {
+    height: 100vh;
+    width: 100vw;
+    margin: auto;
+}
+
+.real-content {
+    display: flex;
+    width: 800px;
+    height: 90vh;
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+}
+
+.celulares {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0;
+    display: flex;
+    height: 550px;
+    width: 400px;
+}
+
+.celular-insta {
+    width: 400px;
+    padding-left: 0px;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.celular-slide {
+    position: absolute;
+    margin-left: 70px;
+    margin-right: auto;
+    margin-top: 45px;
+}
+
+.content-login {
+    width: 400px;
+    height: 500px;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+.border-login {
+    border: solid 1px rgba(177, 177, 177, 0.815);
+}
+
+.instagram-login {
+    width: 170px;
+    padding-top: 45px;
+}
+
+.foto-perfil {
+    border-radius: 100%;
+    width: 100px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+input {
+    text-align: center;
+    height: 25px;
+    width: 270px;
+    margin: 10px;
+    margin-top: 0;
+}
+
+.botton-in {
+    background-color: rgb(0, 149, 246);
+    border-radius: 5px;
+    width: 277px;
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+.botton-style {
+    text-decoration: none;
+    color: white;
+}
+
+.new-register {
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.botton-new-register {
+    text-decoration: none;
+    color: rgb(0, 149, 246);
+    font-weight: bold;
+}
+
+.text-download {
+    margin-top: 10px;
+}
+
+.botton-download-app {
+    height: 40px;
+    width: 250px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+
+.style-botton-download {
+    height: 35px;
+}
+
+.dimensao-slide {
+    width: 218px;
+    position: absolute;
+    margin-left: -309px;
+    margin-right: auto;
+    margin-top: 60px;
+}
+
+.img-slide {
+    opacity: 0;
+    animation-name: slide;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slide {
+    0% {
+        opacity: 0;
+    }
+
+    1% {
+        opacity: 1;
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    21% {
+        opacity: 0;
+    }
+}
+
+@outfra .img-slide:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.img-slide:nth-child(2) {
+    animation-delay: 6s;
+}
+
+.img-slide:nth-child(3) {
+    animation-delay: 12s;
+}
+
+.img-slide:nth-child(4) {
+    animation-delay: 18s;
+}
+
+.img-slide:nth-child(5) {
+    animation-delay: 24s;
+}
