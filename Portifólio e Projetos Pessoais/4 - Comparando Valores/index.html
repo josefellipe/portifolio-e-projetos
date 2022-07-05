@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Comparador</title>
+</head>
+
+<body>
+    <header>
+        <h1>Encontre uma raíz da equação Cubica</h1>
+    </header>
+    <div class="content">
+        <div class="equacao">
+            <h3>Escreva sua equação aqui:</h3>
+            <h3>Y = </h3>
+            <input class="inTermo" type="text" id="termoCubico">
+            <h3>X³ + </h3>
+            <input class="inTermo" type="text" id="termoQuadratico">
+            <h3>X² + </h3>
+            <input class="inTermo" type="text" id="termoLinear">
+            <h3>X + </h3>
+            <input class="inTermo" type="text" id="termoIndependente">
+        </div>
+        <div class="equacao">
+            <h2>Uma raíz é:</h2>
+            <div class="auxiliar">
+                <p class="raiz"></p>
+            </div>
+            <button onclick="calcular()">CALCULAR</button>
+        </div>
+        <script src="assets/js/comparador.js"></script>
+    </div>
+
+</body>
+
+</html>

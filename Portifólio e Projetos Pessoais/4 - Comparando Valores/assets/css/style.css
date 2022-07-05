@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+
+header {
+    text-align: center;
+    width: 992px;
+    background-color: aquamarine;
+    margin: auto;
+}
+
+.content {
+    background-color: ghostwhite;
+    width: 992px;
+    margin: auto;
+}
+
+.equacao {
+    align-items: center;
+    display: flex;
+    margin: auto;
+}
+
+.inTermo {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 40px;
+    height: 30px;
+}
+
+.raiz {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding-left: auto;
+    padding-right: auto;
+    height: 30px;
+    width: 150px;
+    border: 1px solid black;
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}

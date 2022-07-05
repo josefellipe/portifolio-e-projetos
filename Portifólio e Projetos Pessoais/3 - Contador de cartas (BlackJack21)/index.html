@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Contador</title>
+</head>
+
+<body>
+    <div class="box">
+        <h1 class="title">BlackJack 21</h1>
+        <h4 class="subtitle">Contando Cartas</h4>
+        <div class="counter n-baralhos">
+            <div>
+                <h4 class="text-n-baralhos">Número de baralhos</h4>
+            </div>
+            <div class="button">
+                <button name="subtrair" onclick="decrement4()">-</button>
+                <span id="baralho">0</span>
+                <button name="adicionar" onclick="increment4()">+</button>
+            </div>
+        </div>
+        <div class="counter line-background">
+            <div>
+                <h4 class="cartas">2, 3, 4, 5, 6</h4>
+            </div>
+            <div class="button">
+                <button name="subtrair" onclick="decrement1()">-</button>
+                <span id="currentNumber1">0</span>
+                <button name="adicionar" onclick="increment1()">+</button>
+
+            </div>
+        </div>
+        <div class="counter">
+            <div>
+                <h4 class="cartas">7, 8, 9</h4>
+            </div>
+            <div class="button">
+                <button name="subtrair" onclick="decrement2()">-</button>
+                <span id="currentNumber2">0</span>
+                <button name="adicionar" onclick="increment2()">+</button>
+            </div>
+        </div>
+        <div class="counter line-background">
+            <div>
+                <h4 class="cartas">10, J, Q, K, A</h4>
+            </div>
+            <div class="button">
+                <button name="subtrair" onclick="decrement3()">-</button>
+                <span id="currentNumber3">0</span>
+                <button name="adicionar" onclick="increment3()">+</button>
+            </div>
+        </div>
+        <div>
+            <h2 class="text-result">A contagem está em:</h2></br>
+            <h1 class="result"><span id="result">0</span></h1>
+        </div>
+        <button name="clear" onclick="resetNum()">Limpar</button>
+    </div>
+    <script src="assets/js/contador.js"></script>
+</body>
+
+</html>
