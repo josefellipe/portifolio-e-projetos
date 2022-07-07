@@ -1,0 +1,122 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+    display: flex;
+}
+
+.calc {
+    margin: auto;
+    width: 350px;
+    background-color: rgb(230, 230, 230);
+    border: 2px black solid;
+    border-radius: 10px;
+}
+
+.screen {
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    background-color: white;
+    margin: 20px;
+    height: 50px;
+    border: black solid 1px;
+    box-shadow: 0 0 8px black;
+}
+
+.historic {
+    list-style: none;
+    margin: auto;
+    margin-left: 5px;
+}
+
+.view {
+    margin: auto;
+    margin-right: 5px;
+    font-size: 40px;
+}
+
+.in {
+    justify-content: space-between;
+    margin: 20px;
+    height: 246px;
+    display: flex;
+}
+
+.numbers {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 182px;
+}
+
+.numberLine {
+    display: flex;
+    justify-content: space-between;
+}
+
+.operacionsLeft {
+    width: 54px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.operacionsRight {
+    width: 54px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.box {
+    border: black solid 1px;
+    border-radius: 15px;
+    box-shadow: 0 0 5px black;
+    width: 54px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.boxPlus {
+    border: black solid 1px;
+    border-radius: 15px;
+    box-shadow: 0 0 5px black;
+    width: 54px;
+    height: 118px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.boxZero {
+    border: black solid 1px;
+    border-radius: 15px;
+    box-shadow: 0 0 5px black;
+    width: 118px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.box:hover {
+    background-color: gray;
+}
+
+.boxPlus:hover {
+    background-color: gray;
+}
+
+.boxZero:hover {
+    background-color: gray;
+}

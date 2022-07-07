@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <div class="calc">
+        <div class="screen">
+            <div class="historic">
+                <li class="historic2"></li>
+                <li class="historic1"></li>
+            </div>
+            <div class="view"></div>
+        </div>
+        <div class="in">
+            <div class="numbers">
+                <div class="numberLine">
+                    <button class="box" Id="seven" onclick="seven()">7</button>
+                    <button class="box" Id="eight" onclick="eight()">8</button>
+                    <button class="box" Id="nine" onclick="nine()">9</button>
+                </div>
+                <div class="numberLine">
+                    <button class="box" Id="four" onclick="four()">4</button>
+                    <button class="box" Id="five" onclick="five()">5</button>
+                    <button class="box" Id="six" onclick="six()">6</button>
+                </div>
+                <div class="numberLine">
+                    <button class="box" Id="one" onclick="one()">1</button>
+                    <button class="box" Id="two" onclick="two()">2</button>
+                    <button class="box" Id="three" onclick="three()">3</button>
+                </div>
+                <div class="numberLine">
+                    <button class="boxZero" Id="zero" onclick="zero()">0</button>
+                    <button class="box" Id="point" onclick="point()">.</button>
+                </div>
+            </div>
+            <div class="operacionsLeft">
+                <button class="box" Id="potency" onclick="potency()">^</button>
+                <button class="box" Id="share" onclick="share()">:</button>
+                <button class="box" Id="decrease" onclick="decrease()">-</button>
+                <button class="box" Id="equal" onclick="equal()">=</button>
+            </div>
+            <div class="operacionsRight">
+                <button class="box" Id="clear" onclick="start()">C</button>
+                <button class="box" Id="multiply" onclick="multiply()">*</button>
+                <button class="boxPlus" Id="plus" onclick="plus()">+</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/calculadora.js"></script>
+</body>
+
+</html>
