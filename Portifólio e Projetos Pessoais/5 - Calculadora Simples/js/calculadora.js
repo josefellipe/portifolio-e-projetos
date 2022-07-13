@@ -1,20 +1,20 @@
 //variáveis auxiliares para fazer as operações
-var term1 = [];
-var term2 = [];
-var operation = "";
-var operationParcial;
-var historic;
-var valor1 = "0";
-var valor2 = "";
-var num  = "";
-var result;
+let term1 = [];
+let term2 = [];
+let operation = "";
+let operationParcial;
+let historic;
+let valor1 = "0";
+let valor2 = "";
+let num  = "";
+let result;
 
 //variáveis mostradas no histórico de contas
-var historic1 = "";
-var historic2 = "";
+let historic1 = "";
+let historic2 = "";
 
 //variável mostrada no visor principal
-var text;
+let text;
 
 function createTerm1() {
     term1.push(num);
